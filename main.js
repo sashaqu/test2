@@ -27,7 +27,7 @@ var myMatrix = matrixArray(5,3);
 console.log(myMatrix);
 
 for(let i = 0; i < 5; i++) {
-  console.log('Спортсмен ', i, 'имеет результаты ', myMatrix[i].sort((a, b) => a - b));
+  console.log('Спортсмен ', i + 1, 'имеет результаты ', myMatrix[i].sort((a, b) => a - b));
 }
 
 let myMatrix2 = [];
